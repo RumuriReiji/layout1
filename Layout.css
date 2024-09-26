@@ -1,0 +1,48 @@
+body{
+    background-image: linear-gradient(grey, white);
+    background-repeat: no-repeat;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.header{
+    background-color: blue;
+    height: 100px;
+    
+}
+.left{
+    background-color: orange;
+    height: 450px;
+    width: 20%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    background-color: aqua;
+    height: 450px;
+    width: 60%;
+    float:left;
+}
+.right{
+    background-color: green;
+    height: 450px;
+    width: 20%;
+    float:left;
+}
+.footer{
+    background-color: red;
+    height: 80px;
+    clear: both;
+}
+a{
+    text-decoration: none;
+    padding: 10px 0;
+    color: black;
+}
+a:hover{
+    background-color: lightsalmon;
+    color: white;
+    text-decoration: none;
+}
